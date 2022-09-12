@@ -1,8 +1,25 @@
-* {
-	margin: 0;
-	padding: 0;
-}
 body {
-	background-color: rgb(64, 64, 64);
+	background-color: rgb(22, 77, 125);
 	font-family: montserrat, arial, verdana;
+	width: 300px;
+	margin: 100px;
+}
+form {
+	text-align: center;
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+h1 {
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+button {
+	width: 170px;
 }
