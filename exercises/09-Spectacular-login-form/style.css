@@ -1,14 +1,12 @@
 body {
-	background-color: rgb(22, 77, 125);
+	background-color: rgb(7, 38, 87);
 	font-family: montserrat, arial, verdana;
-	width: 300px;
-	margin: 100px;
 }
-form {
-	text-align: center;
-	width: 80%;
-	display: block;
-	margin: auto;
+.login {
+	width: 320px;
+	height: 450px;
+	background-size: cover;
+	margin: 30px auto;
 }
 h1 {
 	color: white;
@@ -18,8 +16,19 @@ h1 {
 
 input {
 	margin-bottom: 10px;
+	width: 98%;
+	border: none;
+	height: 35px;
+	border-radius: 1px;
+	background: rgb(5, 26, 61);
 }
 
 button {
-	width: 170px;
+	cursor: pointer;
+	border: none;
+	padding: 15px;
+	background-color: rgb(72, 116, 215);
+	color: white;
+	width: 100%;
+	border-radius: 5px;
 }
